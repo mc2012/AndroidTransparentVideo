@@ -2,7 +2,7 @@ package com.android.mx.library;
 
 /**
  *
- * @author xmly
+ * @author mx
  *
  */
 public interface ILogger {
