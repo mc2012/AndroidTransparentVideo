@@ -289,6 +289,7 @@ class MxRenderer implements GLTextureView.Renderer, SurfaceTexture
                     triangleVerticesData.length * FLOAT_SIZE_BYTES)
                     .order(ByteOrder.nativeOrder()).asFloatBuffer();
         }
+        triangleVertices.position(0);
         triangleVertices.put(triangleVerticesData).position(0);
         float videoRadio = videoWidth * 1.0f / videoHeight;
         float viewRadio = viewWidth * 1.0f / viewHeight;
